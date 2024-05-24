@@ -1,0 +1,110 @@
+.about-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f5f5f5;
+    padding: 0; /* Remove the top and bottom padding */
+    height: 100vh; /* Set the height to 100vh */
+    position: relative;
+    z-index: 1;
+    
+  }
+  
+  .about-background-image {
+    position: absolute;
+    top: -0;
+    left: 0;
+    width: 100%;
+    height: 1000px;
+    background-image: url('https://assets-global.website-files.com/5fd1f810f64b2873ff6f19bd/6020cb22035bcf6ef9dd4a72_home-cleaning-hero.jpg');
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(245, 245, 245, 0.7);
+    z-index: -1;
+    opacity: 0.3;
+    
+  }
+  
+  .about-content {
+
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    position: relative;
+    z-index: 1;
+    margin-top: 2rem;
+    text-align: justify;
+    width: 700px;
+    opacity: 0.7;
+    
+     /* Center the content vertically */
+  }
+  /* .about-box {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    position: relative;
+    z-index: 1;
+    
+    
+  } */
+  
+  .about-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    /* position: relative; */
+    z-index: 2;
+  }
+  
+  .about-text {
+    font-size: 1.1rem;
+    color: #050404;
+    line-height: 1.6;
+    margin-bottom: 2rem;
+  }
+  .contact-btn {
+    display: block;
+    margin: 0 auto;
+    padding: 0.8rem 1.5rem;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .contact-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .contact-details {
+    background-color: #f5f5f5;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 2rem;
+  }
+  
+  .contact-details h2 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 1rem;
+  }
+  
+  .contact-details p {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Rest of the CSS remains the same */
+  
